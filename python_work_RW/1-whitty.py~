@@ -1,0 +1,13 @@
+
+print "This is Rachel's python file"
+
+print "begin"
+
+giraffe = 8
+
+while giraffe > 0:
+	print giraffe
+	giraffe -= 1
+
+print "end"
+
