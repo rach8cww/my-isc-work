@@ -1,6 +1,6 @@
 
 print
-print "Tuples Exercise"
+print "Tuples Exercise" # tuples are 
 print
 
 # part 1
