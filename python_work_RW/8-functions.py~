@@ -36,4 +36,25 @@ def calc_hypo (a, b): # a defintion with two arguments
 print "hypotenuse: ", calc_hypo(-8,2)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 print

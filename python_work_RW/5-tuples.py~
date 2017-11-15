@@ -34,4 +34,6 @@ print first, middle, last # this is now not the original order
 
 (a, b, c,) = market # can also be used with any character, as long as is a tuple
 print a, b, c # the only thing is that the number of variables has to BALANCE!!
+
+
 print

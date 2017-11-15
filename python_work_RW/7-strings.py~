@@ -44,7 +44,7 @@ dir(something) # prints the directory of everything that can be done
 print "number of 't' characters: ", something.count('t')
 print "location of 'plete': ", something.find("plete")
 print something.find('e') # returns '5' as the first 'e' is at the 5th index
-print something.find('e',5) # finds the next 'e' after the 5th index
+print something.find('e',6) # finds the next 'e' after the 5th index
 
 something.split('e') # splits the word by the letter 'e'
 thing2 = something.replace("different", "idiotic") # replace words in strings
