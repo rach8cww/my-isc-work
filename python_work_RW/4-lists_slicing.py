@@ -20,20 +20,40 @@ print one_to_ten
 
 # part 3
 
-forward = []
-backward = []
-values = ['a', 'b', 'c']
+forward = [] # empty list
+backward = [] # empty list
+values = ['a', 'b', 'c'] # list called values
 
-print "start"
-for item in values:
-	forward.append(item)
-	backward.insert(0,item)
+for item in values: # for loop for items in values list
+	forward.append(item) # assign items to the forward list
+	backward.insert(0,item) # assign items in reverse to backward list
 
-print "forward is ", forward
-print "backward is ", backward
-wrong = forward[::-1]
-print "reverse forward is ", wrong
+print "forward is ", forward # prints forward list
+print "backward is ", backward # prints backward list
+wrong = forward[::-1] # reverses the order of forward using slicing
+print "reverse forward is ", wrong # prints the reversed forward, "wrong"
 
-
-
+# part 4 - not completed...
+"""
+countries = ['uk', 'usa', ' uk', 'uae']
+dir(countries)
+help(countries.count)
+count countries(uk)
+"""
 print
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
