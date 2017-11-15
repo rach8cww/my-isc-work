@@ -39,4 +39,9 @@ if x: print x, 'is True'
 else: print 'False'
 
 
+print None
+print False
+print "hello"	
+print hello 
+
 print
