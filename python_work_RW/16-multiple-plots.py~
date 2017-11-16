@@ -17,7 +17,7 @@ temp = [14.1, 15.5, 16.3, 18.1, 17.3, 19.1, 20.2] # sets temp data
 ax2.plot(time,temp,'r*-') # plots 2nd axes
 ax2.set_ylabel('Temperature (C)') # sets 2nd axes label
 plt.title('Temperature and CO2') # sets title
-#plt.pause(10) # plt.plot()
+plt.pause(10) # plt.plot()
 
 # part 2 - subplots
 
