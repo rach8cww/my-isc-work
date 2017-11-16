@@ -23,23 +23,4 @@ print np.ravel(arr) # flatten array to 1D
 print arr.astype(float) # prints the array with floats rather than int)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 print 
