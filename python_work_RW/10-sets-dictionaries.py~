@@ -20,10 +20,10 @@ counts = {} # creates an empty dictionary
 for member in band: # for every member in the band list:
 	if member not in counts: # if member not in counts,
 		counts[member] = 1 # add member name with the value "1"
-	else: # if the member is already in counts,
+	else: # if the member is already in counts
 		counts[member] += 1 # increase the value of the member by 1
 
-for member in counts: # for each member in the counts dictionary,
+for member in counts: # for each member in the counts dictionary
 	print member, counts[member] # print the member and the value
 
 # part 3 - altering and calling dictionaries

@@ -26,7 +26,7 @@ with open ('dance.py', 'r') as shoes:
 moves = sys.argv[1:]
 # make some new dance moves:
 dancing_queen = ["twirl", "jump", "sway", "cartwheel", "backflip"]
-boogie(dancing_queen)
+boogie(dancing_queen) # calls out the function
 
 
 

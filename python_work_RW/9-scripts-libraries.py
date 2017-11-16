@@ -29,20 +29,4 @@ dancing_queen = ["twirl", "jump", "sway", "cartwheel", "backflip"]
 boogie(dancing_queen) # calls out the function
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 print
