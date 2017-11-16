@@ -1,0 +1,48 @@
+print
+print "Matplotlib Exercise"
+print
+
+import matplotlib.pyplot as plt # imports pyplot as plt
+
+# part 1 - creating simple plots
+
+plt.plot(range(10)) # inputs the values, 0-9
+#plt.pause(20) # shows the plot - normally use plt.show but terminal needs pause
+
+# part 2 - creating a plot of CO2 vs time
+
+times = (0, 1, 2, 3, 4, 5, 6, 7, 8) # the data for the time input
+co2 = [250, 485, 123, 156, 12, 849, 24, 458, 154] # co2 data input
+plt.plot(times,co2, 'b--') # plot the data using a blue dashed line
+plt.xlabel('Time (minutes)') # adds axis label
+plt.ylabel('CO2 Concentration (ppm)') # adds axis label
+plt.title('Concentration of CO2 in Leeds') # adds title
+plt.pause(10) # plt.plot()
+
+# part 3 - additional data
+
+times = (0, 1, 2, 3, 4, 5, 6, 7, 8) # the data for the time input
+co2 = (50, 58, 23, 56, 12, 49, 24, 58, 54) # co2 data input
+temp = (35, 32, 34, 36, 29, 24, 31, 36, 28)
+plt.plot(times, co2, 'b--', times, temp, 'r') # plot the two data sets
+plt.xlabel('Time (minutes)') # adds axis label
+plt.ylabel('CO2 Concentration (ppm)') # adds axis label
+plt.title('Concentration of CO2 in Leeds') # adds title
+plt.label() # need to look this up...
+plt.pause(10) # plt.plot()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+print
