@@ -52,6 +52,7 @@ print thing2
 
 print thing2.lower()
 print thing2.upper()
+print thing2.title() # sets first letter of each word as upper case, rest as lower
 
 
 print
