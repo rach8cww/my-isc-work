@@ -10,8 +10,7 @@ from mpl_toolkits.basemap import Basemap
 
 fig = plt.figure()
 
-m = Basemap(projection = 'cyl', 11crnrlat = -90, urcrnrlat = 90,
-	11crnrlon = -180, urcrnrlon = 180, resolution = 'c')
+m = Basemap(projection = 'cyl', 11crnrlat = -90, urcrnrlat = 90, 11crnrlon = -180, urcrnrlon = 180, resolution = 'c')
 
 m.drawcoastlines()
 
