@@ -24,8 +24,8 @@ ser = serial.Serial(
 #print date_time
 
 #  different time-format (easier to read)
-#date_time = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S'),ser.read(size=8)
-#print date_time
+date_time = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S'),ser.read(size=8)
+print date_time
 
 # part 4 - difference between data and time-stamp
 
@@ -56,13 +56,13 @@ outfile = '/tmp/serial-temperature-trial1.tsv'
 
 sio = io.TextIOWrapper(io.BufferedRWPair(ser,ser,1), encoding='ascii',newline='\r')
 
-with open(outfile, 'a') as f: # appends to existing file
-	while ser.isOpen(): # runs the loop to keep putting the record in the file
-		datastring = sio.readline() # sets the data input
-		f.write(datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S') + '\t' + datastring + '\n') # records the date/time and the data at the same time
-		f.flush() # included to force the system to write to the file
+#with open(outfile, 'a') as f: # appends to existing file
+#	while ser.isOpen(): # runs the loop to keep putting the record in the file
+#		datastring = sio.readline() # sets the data input
+#		f.write(datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S') + '\t' + datastring + '\n') # records the date/time and the data at the same time
+#		f.flush() # included to force the system to write to the file
 
-ser.close()
+#ser.close()
 
 
 print

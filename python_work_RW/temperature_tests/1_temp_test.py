@@ -52,7 +52,7 @@ ser = serial.Serial(
 
 # part 7 - reading out into a file
 
-outfile = '/tmp/serial-temperature-trial1.tsv'
+outfile = '/tmp/serial-temp_ROOM.tsv'
 
 sio = io.TextIOWrapper(io.BufferedRWPair(ser,ser,1), encoding='ascii',newline='\r')
 
