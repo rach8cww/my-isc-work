@@ -48,3 +48,18 @@ plt.pause(10) # shows all of the plots
 
 print
 
+"""
+NOTES:
+
+
+plt.figure # multiple plots
+plt.plot(times, [0,1,5,3], 'g--', label = "same data")
+plt.plot(times, [1,2,5,6], 'r', label = "other data")
+plt.ylabel("Concentration (%)")
+plt.xlabel('Time (s)')
+plt.title('Concentration of Chlorine vs. Time')
+plt.legend()
+plt.savefig("Plot 1.png")
+plt.figure(figsize = (10,10))
+#plt.pause(5)
+"""

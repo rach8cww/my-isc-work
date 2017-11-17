@@ -46,7 +46,7 @@ print m3 * 100 # also seems to multiply the mask number, so all >600 are masked
 
 m4 = m3 - np.ones((2,4)) # subtracting an array of 0s from m3
 print m4 # this seems to give m1 but with floats rather than int.
-print type(m4)
+print type(m4) # returns: <class 'numpy.ma.core.MaskedArray'>
 
 
 print
